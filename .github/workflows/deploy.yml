@@ -28,7 +28,7 @@ jobs:
         mkdir -p gh-pages
         cp -r citrus/book gh-pages/citrus
         cp -r kappa/book gh-pages/kappa
-        echo '<!DOCTYPE html><html><body><ul><li><a href="citrus/">Citrus</a></li><li><a href="kappa/">Kappa</a></li></ul></body></html>' > gh-pages/index.html
+        cp static/index.html gh-pages/index.html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
