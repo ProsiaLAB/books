@@ -5,7 +5,7 @@ src = "src"
 title = "citrus: A Primer on Line Modeling"
 
 [build]
-build-dir = "../book"
+build-dir = "book"
 
 [output.html]
 site-url = "/books/citrus"
