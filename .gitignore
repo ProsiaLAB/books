@@ -1,0 +1,35 @@
+# Ignore build output directories
+**/book/
+gh-pages/
+
+# Ignore mdBook cache
+**/target/
+
+# Node modules (if any theme customization uses npm)
+node_modules/
+
+# Ignore temporary/system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python virtual environments (if used)
+venv/
+.env/
+
+# Logs and lock files
+*.log
+yarn.lock
+package-lock.json
+
+# Ignore compiled assets
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore deployment artifacts
+.nojekyll
+
+# VSCode settings (optional)
+.vscode/
